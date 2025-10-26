@@ -1,0 +1,12 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203, W503
+exclude =
+    .venv,
+    .git,
+    __pycache__,
+    migrations,
+    static,
+    node_modules
+# Enable plugins when installed (example)
+# select = C,E,F,W,B,B9

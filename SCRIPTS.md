@@ -12,5 +12,16 @@ pip install --upgrade pip
 pip install -r requirements.txt
 pip install -r dev-requirements.txt
 
-# initialize django project (Day 3 planned)
-# django-admin startproject luxuryconnect .
+# install and enable pre-commit hooks (Day 2)
+pre-commit install
+# run hooks against all files once:
+pre-commit run --all-files
+
+# To add changes and commit:
+git add .
+git commit -m "chore: linters & repo polish"
+
+# Notes:
+# - If mypy reports too many issues initially, run:
+#     mypy --install-types --non-interactive
+#   then re-run pre-commit hooks.

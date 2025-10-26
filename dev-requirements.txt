@@ -3,10 +3,13 @@ pytest==8.4.2
 pytest-django==4.11.1
 factory_boy==3.3.3
 Faker==37.11.0
+attrs==25.4.0
 
-# Code quality
+# Code quality & formatting
 black==23.9.1
 flake8==7.3.0
+flake8-bugbear==23.9.16
+isort==7.0.0
 mypy==1.18.2
 
 # Pre-commit
