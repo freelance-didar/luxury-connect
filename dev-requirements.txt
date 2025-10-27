@@ -10,7 +10,12 @@ black==23.9.1
 flake8==7.3.0
 flake8-bugbear==23.9.16
 isort==7.0.0
+
+# Type checking
 mypy==1.18.2
+django-stubs==5.2.7
+django-stubs-ext==5.2.7
+types-PyYAML==6.0.12.20250915
 
 # Pre-commit
 pre_commit==4.3.0
